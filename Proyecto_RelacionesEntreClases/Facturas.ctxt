@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Facturas
+comment0.text=Clase\:\ Factura\:\r\n\u2022\ EL\ constructor\ debe\ recibir\ por\ par\u00E1metro\ el\ n\u00FAmero\ de\r\nfactura.\r\n\u2022\ Realizar\ los\ m\u00E9todos\ get\ y\ set\ para\ el\ campo\ n\u00FAmero\ de\r\nfactura.\r\n\u2022\ agregarDetalles(Detalles\ d)\:\ debe\ permitir\ agregar\ un\r\ndato\ tipo\ detalle\ a\ la\ lista\ deta.\r\n\u2022\ listarFactura()\:\ debe\ permitir\ listar\ por\ pantalla\ los\ datos\r\nde\ la\ factura.\r\nMostrando\ todos\ los\ detalles\ asociados\ y\ el\ precio\ total\ de\r\nla\ misma.\ Este\ precio\ se\ obtiene\ de\ la\ sumatoria\ de\r\nmultiplicar\ el\ Precio\ Unitario\ de\ cada\ articulo\ por\ la\r\ncantidad.\r\nPor\ cada\ art\u00EDculo\ que\ se\ muestre\ en\ el\ detalle\ deber\u00E1\ informar\r\npor\ pantalla\ el\ nombre\ del\ art\u00EDculo,\ la\ cantidad,\ el\ precio\r\nunitario\ y\ el\ precio\ total\ (precio\ unitario\ *\ cantidad)\r\n
+comment1.params=numeroFactura
+comment1.target=Facturas(int)
+comment2.params=d
+comment2.target=void\ agregarDetalles(Detalles)
+comment3.params=
+comment3.target=void\ listarFactura()
+numComments=4

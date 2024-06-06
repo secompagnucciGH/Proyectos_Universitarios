@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=EjercicioString1
+comment0.text=\r\n\ @author(Sebastian)\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ @v(1v)v\r\n
+comment1.params=
+comment1.target=void\ metodo1()
+comment10.params=clave\ clave1\ clave2\ clave3
+comment10.target=boolean\ ContieneLasLetras(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ metodo2()
+comment3.params=
+comment3.target=void\ metodo3()
+comment4.params=
+comment4.target=void\ metodo4()
+comment5.params=alfaString
+comment5.target=void\ metodo5(java.lang.String)
+comment6.params=
+comment6.target=void\ llamarMetodo6()
+comment7.params=clave1\ clave2\ clave3\ claveFinal
+comment7.target=void\ metodo6(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment8.params=clave
+comment8.target=boolean\ soloLetras(java.lang.String)
+comment9.params=clave1\ clave2\ clave3
+comment9.target=boolean\ TieneRepeticion(java.lang.String,\ java.lang.String,\ java.lang.String)
+numComments=11

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Articulo
+comment0.text=\r\n1\u00B0)\ \r\nCrear\ la\ clase\ Articulo\ (almacena\ el\ nombre,\ precio\ unitario\ y\ stock\ de\r\ncada\ art\u00EDculo\ (Ej\:\ Nombre\:\ \u201CYerba\ La\ Verde\u201D,\ Precio\:\ 310,\ Stock\:\ 300\ )\r\nEl\ constructor\ debe\ permitir\ crear\ una\ instancia\ recibiendo\ los\ 3\ datos\ por\r\npar\u00E1metros.\r\nEl\ campo\ stock,\ al\ crear\ la\ instancia,\ genera\ el\ stock\ inicial\ del\ art\u00EDculo\r\nEl\ m\u00E9todo\ actualizaStock(int\ cantidad)\ ,\ lo\ que\ hace\ es\ recibir\ un\ dato\ entero\ y\r\nsumarlo\ al\ campo\ stock.\ De\ esta\ manera\ se\ mantiene\ actualizado\ el\ campo\ stock\r\ndel\ art\u00EDculo.\ \r\n
+comment1.params=nombre\ precioUnitario\ stock
+comment1.target=Articulo(java.lang.String,\ double,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Articulo\r\n
+comment2.params=stock
+comment2.target=void\ setStock(int)
+comment3.params=
+comment3.target=int\ getStock()
+comment4.params=cantidad
+comment4.target=void\ actualizaStock(int)
+comment5.params=
+comment5.target=java.lang.String\ getNombre()
+comment6.params=
+comment6.target=double\ getPrecioUnitario()
+numComments=7

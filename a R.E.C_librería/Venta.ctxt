@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Venta
+comment1.params=cantidadVentas
+comment1.target=Venta(int)
+comment1.text=\r\n\ \ \ \ \ Crea\ una\ clase\ Venta\ que\ represente\ una\ venta\ de\ libros.\r\n\ \r\n\ \ \ \ \ Una\ venta\ consiste\ en\ un\ libro\ y\ la\ cantidad\ de\ copias\ vendidas.\r\n
+comment2.params=libro
+comment2.target=void\ addLibro(Libro)
+comment3.params=
+comment3.target=double\ calcularTotal()
+comment3.text=\r\n\ La\ clase\ Venta\ debe\ contener\ un\ m\u00E9todo\ calcularTotal()\ \r\n\ que\ calcule\ y\ devuelva\ el\ monto\ total\ de\ la\ venta,\ \r\n\ multiplicando\ el\ precio\ del\ libro\ por\ la\ cantidad\ de\ copias\ vendidas.\r\n\ \ \ \ \ \r\n\ \ \ \ La\ clase\ Venta\ debe\ tener\ un\ m\u00E9todo\ mostrarDetalles()\ \r\n\ \ \ \ que\ muestre\ por\ pantalla\ los\ detalles\ de\ la\ venta,\ incluyendo\ \r\n\ \ \ \ el\ t\u00EDtulo\ del\ libro,\ el\ autor,\ la\ cantidad\ vendida,\ el\ precio\ unitario\ y\ el\ monto\ total\ de\ la\ venta.\r\n
+comment4.params=
+comment4.target=void\ mostrarDetalles()
+numComments=5

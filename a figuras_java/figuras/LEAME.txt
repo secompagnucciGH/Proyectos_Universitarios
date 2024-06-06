@@ -1,0 +1,42 @@
+Proyecto "figuras"
+
+Autores: Michael K�lling y David J. Barnes
+
+Este proyecto forma parte del material para el libro
+
+��� Primeros objetos con Java - Una introducci�n pr�ctica usando BlueJ
+��� Tercera edici�n
+��� David J. Barnes y Michael Kolling
+��� Pearson Education, 2006
+
+Se utiliza en el cap�tulo 1.
+
+Este es un proyecto muy simple para demostrar algunas caracter�sticas de
+objetos.
+
+Puede crear varias figuras, y usted ver�, si lo hace, que las figuras se dibujan en la pantalla (en una ventana que llamamos el "canvas").
+
+Usted puede entonces manipular estos objetos: cambiar su posici�n, tama�o y
+color. Pru�belo: cree un par de cuadrados diferentes, tri�ngulos y c�rculos.
+
+Este proyecto est� dise�ado como un primer ejemplo de programaci�n orientada a objetos.
+
+Esto ilustra una serie de conceptos:
+
+- Un proyecto Java (aplicaci�n) es una colecci�n de clases
+- Los objetos pueden ser creados a partir de las clases
+- A partir de una sola clase, se pueden crear muchos objetos
+- Los objetos tienen operaciones (m�todos)
+- Las operaciones pueden tener par�metros
+- Los par�metros tienen tipos (al menos String e int)
+- Los objetos contienen datos (campos)
+- Las operaciones y campos son comunes a todos los objetos
+- Los valores almacenados en los campos pueden ser diferentes para cada objeto
+
+El proyecto tambi�n demuestra
+
+- La creaci�n de objetos BlueJ
+- La invocaci�n de m�todos interactivos
+- El paso de par�metros
+
+Un buen segundo proyecto para mirar despu�s de este es "cuadro", el que agrega una clase a las que est�n en este proyecto. Esa clase (llamada "Cuadro") utiliza las figuras para hacer un cuadro. Se puede utilizar para experimentar con la codificaci�n.

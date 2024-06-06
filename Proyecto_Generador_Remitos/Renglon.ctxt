@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Renglon
+comment0.text=\r\n2\u00B0)\ Crear\ la\ clase\ Rengl\u00F3n\ (Contiene\ un\ dato\ tipo\ Articulo\ y\ cantidad)\r\nEl\ constructor\ debe\ permitir\ crear\ una\ instancia\ recibiendo\ los\ datos\ por\r\npar\u00E1metros\ (art\u00EDculo,\ cantidad).\r\nLa\ cantidad\ de\ art\u00EDculos\ no\ debe\ superar\ al\ stock\ existente.\r\nEjemplo\:\r\n-\ si\ la\ cantidad\ del\ remito\ es\ de\ 7\ art\u00EDculos,\ y\ el\ stock\ es\ de\ 10\ y,\ entonces\r\nse\ pone\ como\ cantidad\ 7\ y\ se\ actualiza\ el\ sotck\ quedando\ en\ 3.\r\n-\ si\ la\ cantidad\ del\ remito\ es\ de\ 14\ art\u00EDculos,\ y\ el\ stock\ es\ de\ 10,\ entonces\r\nse\ pone\ como\ cantidad\ 4\ y\ se\ actualiza\ el\ stock\ quedando\ en\ 0\ (cero).\r\n-\ Si\ la\ cantidad\ del\ remito\ es\ de\ 5\ art\u00EDculos,\ y\ el\ stock\ es\ de\ 0\ y,\ entonces\r\nse\ pone\ como\ cantidad\ 0\ y\ el\ stock\ queda\ en\ cero.\r\nCada\ instancia\ que\ se\ genera\ debe\ actualizar\ el\ campo\ sotck.\ Para\ eso,\ cada\ vez\r\nque\ se\ genera\ una\ instancia\ desde\ el\ constructor\ debe\ ejecutar\ el\ m\u00E9todo\r\nactualizaStock()\ de\ la\ clase\ Articulo,\ envi\u00E1ndole\ como\ par\u00E1metro\ la\ cantidad\r\ncorrespondiente\ con\ signo\ negativo\ (Ej.\ Si\ la\ cantidad\ \=\ 100,\ se\ enviar\u00E1\ por\r\npar\u00E1metro\ -100)\r\n
+comment1.params=articulo\ cantidad
+comment1.target=Renglon(Articulo,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Renglon\r\n
+comment2.params=
+comment2.target=int\ getCantidad()
+comment3.params=
+comment3.target=Articulo\ getArticulo()
+numComments=4

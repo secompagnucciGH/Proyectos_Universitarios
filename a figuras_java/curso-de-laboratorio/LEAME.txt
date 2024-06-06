@@ -1,0 +1,20 @@
+Proyecto "curso-de-laboratorio"
+
+Autores: Michael Kölling y David J. Barnes
+
+Este proyecto forma parte del material para el libro
+
+    Primeros objetos con Java - Una introducción práctica usando BlueJ
+    Tercera edición
+    David J. Barnes y Michael Kolling
+    Pearson Education, 2006
+
+Se utiliza en el capítulo 1.
+
+El propósito de este proyecto es mostrar la interacción de objetos y examinar un código sencillo.
+
+Vea los capítulos uno y tres del libro.
+
+Para utilizar este proyecto, cree algunos objetos Estudiante, a continuación, cree un objeto CursoDeLaboratorio.
+
+Agregue los estudiantes al curso utilizando el método de "inscribirEstudiante". Imprima una lista del curso.

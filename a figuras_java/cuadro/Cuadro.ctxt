@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Cuadro
+comment0.text=\r\n\ Esta\ clase\ representa\ un\ cuadro\ simple.\ Usted\ puede\ dibujar\ el\ cuadro\ usando\r\n\ el\ metodo\ dibujar.\ Pero\ atento,\ hay\ mas\:\ como\ se\ trata\ de\ un\ cuadro\ electronico,\ el\r\n\ puede\ ser\ cambiado.\ Usted\ puede\ cambiar\ el\ visor\ a\ blano\ y\ negro\ y\ volver\ a\ ponerlo\ en\r\n\ colores\ (solamente\ despues\ que\ el\ fue\ dibujado,\ por\ supuesto).\r\n\r\n\ Esta\ clase\ fue\ escrita\ como\ un\ ejemplo\ sencillo\ para\ ense\u00F1ar\ Java\ con\ BlueJ.\r\n\ \r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2006.03.30\r\n\r\n\ Traductores\:\ Jose\ Cardilli\ y\ Mario\ Finos\r\n
+comment1.params=
+comment1.target=Cuadro()
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Cuadro\r\n
+comment2.params=
+comment2.target=void\ dibujar()
+comment2.text=\r\n\ Dibujar\ este\ cuadro.\r\n
+comment3.params=
+comment3.target=void\ ponerBlancoYNegro()
+comment3.text=\r\n\ Cambiar\ este\ cuadro\ a\ blanco\ y\ negro\ en\ el\ visor\r\n
+comment4.params=
+comment4.target=void\ ponerColor()
+comment4.text=\r\n\ Cambiar\ este\ cuadro\ a\ color\ en\ el\ visor\r\n
+numComments=5

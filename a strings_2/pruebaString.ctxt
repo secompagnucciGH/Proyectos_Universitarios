@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=pruebaString
+comment1.params=
+comment1.target=pruebaString()
+comment2.params=String1
+comment2.target=void\ metodoString(java.lang.String)
+comment3.params=
+comment3.target=void\ stringprueba()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

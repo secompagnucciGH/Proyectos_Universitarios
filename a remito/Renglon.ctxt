@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Renglon
+comment0.text=\r\n\ 2\u00B0)\ Crear\ la\ clase\ Rengl\u00F3n\ (Contiene\ un\ dato\ tipo\ Mercaderia\ y\ cantidad)\r\n\ El\ constructor\ debe\ permitir\ crear\ una\ instancia\ recibiendo\ los\ datos\ por\r\n\ par\u00E1metros.\r\n\ getters\ y\ setters\r\n
+comment1.params=nuevaMercaderia\ cantidadMercaderia
+comment1.target=Renglon(Mercaderia,\ int)
+comment2.params=
+comment2.target=Mercaderia\ getMercaderia()
+comment3.params=mercaderia
+comment3.target=void\ setMercaderia(Mercaderia)
+comment4.params=
+comment4.target=int\ getCantidad()
+comment5.params=cantidad
+comment5.target=void\ setCantidad(int)
+numComments=6

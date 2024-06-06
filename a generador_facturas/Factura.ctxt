@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Factura
+comment1.params=numeroFactura
+comment1.target=Factura(int)
+comment2.params=
+comment2.target=int\ getNumeroFactura()
+comment3.params=
+comment3.target=double\ getImporte()
+comment4.params=
+comment4.target=java.lang.String\ getNombreCliente()
+comment5.params=numeroFactura
+comment5.target=void\ setNumeroFactura(int)
+comment6.params=importe
+comment6.target=void\ setImporte(double)
+comment7.params=nombreCliente
+comment7.target=void\ setNombreCliente(java.lang.String)
+comment8.params=tipoPago
+comment8.target=double\ calcularNeto(int)
+comment9.params=tipoPago
+comment9.target=double\ calcularDescuento(int)
+numComments=10

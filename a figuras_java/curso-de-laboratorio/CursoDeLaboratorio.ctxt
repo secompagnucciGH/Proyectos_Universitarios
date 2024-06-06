@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=maximoNumeroDeEstudiantes
+comment0.target=CursoDeLaboratorio(int)
+comment0.text=\r\n\ Crea\ un\ CursoDeLaboratorio\ con\ el\ maximo\ numero\ de\ inscripciones.\ Todos\ los\ otros\r\n\ detalles\ son\ puestos\ en\ el\ valor\ por\ defecto.\r\n
+comment1.params=nuevoEstudiante
+comment1.target=void\ inscribirEstudiante(Estudiante)
+comment1.text=\r\n\ Agrega\ un\ estudiante\ a\ este\ CursoDeLaboratorio.\r\n
+comment2.params=
+comment2.target=int\ numeroDeEstudiantes()
+comment2.text=\r\n\ Retorna\ el\ numero\ de\ estudiantes\ actualmente\ inscriptos\ en\ este\ CursoDeLaboratorio.\r\n
+comment3.params=numeroDeAula
+comment3.target=void\ ponerAula(java.lang.String)
+comment3.text=\r\n\ Asigna\ un\ numero\ de\ aula\ a\ este\ CursoDeLaboratorio.\r\n
+comment4.params=diaYHoraCadena
+comment4.target=void\ ponerHorario(java.lang.String)
+comment4.text=\r\n\ Asigna\ el\ horario\ para\ este\ CursoDeLaboratorio.\ El\ parametro\ debe\ definir\ el\ dia\r\n\ y\ la\ hora\ del\ dia,\ por\ ejemplo\ "Viernes,\ 10am".\r\n
+comment5.params=nombreDeInstructor
+comment5.target=void\ ponerInstructor(java.lang.String)
+comment5.text=\r\n\ Asigna\ el\ nombre\ del\ instructor\ a\ este\ CursoDeLaboratorio.\r\n
+comment6.params=
+comment6.target=void\ imprimirLista()
+comment6.text=\r\n\ Imprime\ una\ lista\ del\ curso\ con\ otros\ detalles\ del\ CursoDeLaboratorio\ en\ la\ terminal\r\n\ estandar.\r\n
+numComments=7

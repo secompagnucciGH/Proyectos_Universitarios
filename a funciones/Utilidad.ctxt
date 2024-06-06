@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Utilidad
+comment0.text=\r\n@author\ Sebastian\ Compagnucci\r\n@version\ 4\ /\ 10\r\n
+comment1.params=
+comment1.target=Utilidad()
+comment2.params=a\ b
+comment2.target=int\ sumador2(int,\ int)
+comment2.text=\r\n\ Este\ metodo\ recibe\ como\ parametro\ dos\ dos\ numeros\ enteros\ y\ retorna\ la\ suma\ entre\ esos\ dos\ numeros.\r\n
+numComments=3

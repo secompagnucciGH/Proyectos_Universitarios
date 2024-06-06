@@ -1,0 +1,23 @@
+Proyecto "cuadro"
+
+Autores: Michael K�lling y David J. Barnes
+
+Este proyecto forma parte del material para el libro
+
+��� Primeros objetos con Java - Una introducci�n pr�ctica usando BlueJ
+��� Tercera edici�n
+��� David J. Barnes y Michael Kolling
+��� Pearson Education, 2006
+
+Se utiliza en el cap�tulo 1.
+
+Este es un proyecto muy simple para demostrar algunas caracter�sticas de
+objetos.
+
+Este proyecto es de uso frecuente despu�s de estudiar el proyecto de "figuras".
+
+Agrega una clase a las que est�n en "figuras".
+
+Esta clase (llamada "Cuadro") utiliza las figuras para hacer un cuadro.
+
+Se puede utilizar para experimentar con la modificaci�n del c�digo fuente.

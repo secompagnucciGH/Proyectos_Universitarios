@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Articulo
+comment1.params=nombre\ precio_unit\ iva
+comment1.target=Articulo(java.lang.String,\ java.lang.Double,\ java.lang.Double)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=nombre
+comment3.target=void\ setNombre(java.lang.String)
+comment4.params=
+comment4.target=java.lang.Double\ getPrecio_unit()
+comment5.params=precio_unit
+comment5.target=void\ setPrecio_unit(java.lang.Double)
+comment6.params=
+comment6.target=double\ getIva()
+comment7.params=iva
+comment7.target=void\ setIva(java.lang.Double)
+numComments=8

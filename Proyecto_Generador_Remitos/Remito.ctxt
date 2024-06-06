@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Remito
+comment0.text=\r\n\ 3\u00B0)\ Crear\ la\ clase\ Remito\ (n\u00FAmero\ de\ remito\ y\ arrayList<Renglon>)\r\nEl\ constructor\ debe\ permitir\ crear\ una\ instancia\ recibiendo\ el\ dato\ \u201Cn\u00FAmero\u201D\ de\r\nremito\ por\ par\u00E1metros.\r\nEl\ m\u00E9todo\ listarRemito()\ debe\ mostrar\ por\ pantalla\ el\ detalle\ del\ Remito\ de\ la\r\nsiguiente\ manera\:\ \r\nRemito\ N\u00FAmero\:\ 122234\r\nArticulo\ Cantidad\ Precio\ Unitario\ Total\r\nManteca\ 2\ $10\ $20\r\nCrema\ 1\ $15\ $15\r\nNaranja\ 4\ $\ 5\ $20\r\nCantidad\ de\ art\u00EDculos\:\ 7\r\n\r\nAclaraci\u00F3n\:\r\n-\ un\ Remito\ puede\ tener\ relacionado\ muchos\ renglones.\r\n-\ cada\ rengl\u00F3n,\ tiene\ asociado\ un\ objeto\ Articulo\r\n-\ Cada\ instancia\ de\ Articulo\ tiene\ el\ nombre\ y\ precio\ unitario.\ Estos\ datos\r\ndeben\ cargarse\ por\ teclado\ y\ se\ debe\ validar\ que\ el\ precio\ se\ mayor\ a\ cero.\r\n-\ El\ m\u00E9todo\ addRenglon()\ de\ la\ clase\ Remito\ permite\ agregar\ una\ instancia\ de\r\nRenglon\ a\ la\ lista\r\n
+comment1.params=nro
+comment1.target=Remito(int)
+comment2.params=renglon
+comment2.target=void\ addRenglon(Renglon)
+comment3.params=
+comment3.target=void\ listarRemito()
+numComments=4

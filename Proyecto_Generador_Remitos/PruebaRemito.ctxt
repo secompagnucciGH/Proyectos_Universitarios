@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PruebaRemito
+comment1.params=
+comment1.target=PruebaRemito()
+comment1.text=\r\nCrear\ 3\ instancias\ de\ Articulo\:\ \r\niniciar\ el\ stock\ con\ 100\ para\ todos\ los\ art\u00EDculos.\r\n\u2022\ Crear\ 3\ instancias\ de\ Rengl\u00F3n\r\n\u2022\ Crear\ una\ instancia\ de\ Remito\r\n\u2022\ Agregar\ los\ 3\ renglones\ al\ remito\ (al\ ArrayList\ renglon)\r\n\u2022\ Ejecutar\ el\ m\u00E9todo\ listarRemito()\r\n\r\n
+numComments=2

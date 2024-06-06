@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Quini6
+comment1.params=
+comment1.target=Quini6()
+comment2.params=n
+comment2.target=boolean\ existeEnQuini6(int)
+comment3.params=
+comment3.target=void\ verificaQuini6()
+comment4.params=
+comment4.target=void\ comparaQuini6()
+comment5.params=n
+comment5.target=boolean\ repetido(int)
+numComments=6

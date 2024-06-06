@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Remito
+comment1.params=numeroRemito
+comment1.target=Remito(int)
+comment2.params=listarRenglon
+comment2.target=void\ AddRenglon(Renglon)
+comment3.params=numeroRemito
+comment3.target=void\ setNumeroRemito(int)
+comment4.params=
+comment4.target=void\ ListarRemito()
+comment5.params=
+comment5.target=int\ getNumeroRemito()
+numComments=6

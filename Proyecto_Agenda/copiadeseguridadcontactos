@@ -1,0 +1,270 @@
+import java.util.Scanner;
+
+//.toUpperCase()
+
+public class Contactos {
+    private String nombre;
+    private String localidad;
+    private String direccion;
+    String[] telefono = new String[5];
+
+    public Contactos() {
+
+    }
+
+    /**
+     * 1°- ingresar la característica telefónica (Scanner)
+     * 2°-Validar la característica telefónica. Para esto usar el método
+     * validarCaracteristica(Strin c);
+     * Si la característica telefónica es incorrecta, volver a ingresarla. (hasta
+     * que se ingrese correctamente)
+     * 3° - ingresar el número de teléfono (Scanner)
+     * 4° - Validar el número de teléfono. Para esto usar el método
+     * validarNumero(int n);
+     * Si el número de teléfono es incorrecto, volver a ingresarlo. (hasta que se
+     * ingrese correctamente)
+     */
+    public void agregarTelefono() {
+        Scanner sc = new Scanner(System.in);
+        if (elementoVacio() != -1) {
+            String caracteristicaTelefonica;
+            String numeroTelefonico;
+            System.out.println("Hay espacio disponible para guardar el teléfono. A continuación, ingrese...");
+
+            do {
+                System.out.println("Ingrese la característica telefónica");
+                caracteristicaTelefonica = sc.nextLine();
+                if (!validarCaracteristica(caracteristicaTelefonica)) {
+                    System.err
+                            .println("La Característica Telefónica no cumple con los requisitos, intente nuevamente.");
+                }
+            } while (!validarCaracteristica(caracteristicaTelefonica));
+
+            do {
+                System.out.println("Ingrese el número de teléfono");
+                numeroTelefonico = sc.nextLine();
+                if (!validarNumero(numeroTelefonico)) {
+                    System.out.println("Número no válido.");
+                }
+            } while (!validarNumero(numeroTelefonico));
+
+            int indiceVacio = elementoVacio();
+            if (indiceVacio != -1) {
+                telefono[indiceVacio] = caracteristicaTelefonica + "-" + numeroTelefonico;
+            } else {
+                System.out.println("No hay espacio disponible para agregar números telefónicos.");
+            }
+        } else {
+            System.out.println("No existe más lugar para agregar números telefónicos");
+        }
+    }
+
+    // ELEMENTO VACIO
+
+    private int elementoVacio() {
+        for (int i = 0; i < telefono.length; i++) {
+            if (telefono[i] == null) {
+                return i; // Retorna el índice del primer elemento vacío encontrado
+            }
+        }
+        return -1; // Si ningún elemento está vacío, retorna -1
+    }
+
+    /**
+     * Este método recibe por parámetro del valor de un numero telefónico, debe
+     * devolver true, si es correcto, sino false.
+     * NÚMERO correcto:
+     * ✓ Su longitud no debe exceder los 7 caracteres ni menor que 5
+     * ✓ el primer carácter NO debe ser cero
+     * ✓ Solo puede contener números.
+     */
+    private boolean validarNumero(String num) {
+        if (num.length() >= 5 && num.length() <= 7) {
+            if (num.charAt(0) != '0' && num.matches("\\d+")) {
+                return true;
+            }
+        }
+        return false;
+
+    }
+
+    /**
+     *
+     * Verifica si una característica telefónica cumple con las condiciones
+     * especificadas.
+     * Condiciones:
+     * - Debe ser una cadena de caracteres (String).
+     * - El primer carácter debe ser '0'.
+     * - La longitud total no debe ser mayor a 5 ni menor a 3.
+     * - Debe contener solo números.
+     */
+    private boolean validarCaracteristica(String c) {
+        // Verifica si la longitud está entre 3 y 5 caracteres
+        if (c.length() >= 3 && c.length() <= 5) {
+            // Verifica si el primer carácter es '0'
+            if (c.charAt(0) == '0') {
+                // Verifica si la característica contiene solo números
+                if (c.matches("\\d+")) {
+                    // Todas las condiciones se cumplen, la característica es válida
+                    return true;
+                }
+            }
+        }
+        // Si alguna de las condiciones no se cumple, la característica no es válida
+        return false;
+    }
+
+    /**
+     * 1- Listar los números de teléfonos por pantalla. Para esto utilizar el método
+     * listarTelefonos().
+     * 2- Ingresar el número de la posición del teléfono que se desea eliminar.
+     * 3- Eliminar el teléfono con la posición indicada (poner el elemento del
+     * arreglo en blanco (“”)
+     */
+    public void eliminarTelefono() {
+        Scanner sc = new Scanner(System.in);
+
+        boolean todosEnBlanco = true; // Variable para rastrear si todos los teléfonos están en blanco
+
+        for (String numero : telefono) {
+            if (numero != null) {
+                todosEnBlanco = false;
+                break; // Si encontramos un teléfono que no está en blanco, salimos del bucle
+            }
+        }
+
+        if (todosEnBlanco) {
+            System.out.println("No existen números de teléfonos en la lista");
+        } else {
+            listarTelefonos();
+            System.out.println("\nIngrese la posición del teléfono que desee eliminar");
+            int indiceAEliminar = (sc.nextInt() - 1);
+
+            if (indiceAEliminar >= 0 && indiceAEliminar < telefono.length) {
+                String[] nuevoTelefono = new String[telefono.length - 1];
+
+                for (int i = 0, j = 0; i < telefono.length; i++) {
+                    if (indiceAEliminar != i) {
+                        nuevoTelefono[j] = telefono[i];
+                        j++;
+                    }
+                }
+                System.err.println("Numero de la posición " + (indiceAEliminar - 1) + " eliminado.");
+
+                telefono = nuevoTelefono; // Actualiza el arreglo original con el nuevo arreglo
+            } else {
+                System.err.println("Posición fuera de rango.");
+            }
+        }
+    }
+
+    public void getDireccion() {
+    }
+
+    public void getLocalidad() {
+    }
+
+    public void getNombre() {
+    }
+
+    /*
+     * 1- Mostrar por pantalla los números de teléfonos (almacenados en el
+     * arreglo telefono) enumerándolos a partir de 1.
+     */
+    public void listarTelefonos() {
+        boolean todosEnBlanco = true;
+
+        for (String numero : telefono) {
+            if (numero != null) {
+                todosEnBlanco = false;
+            }
+        }
+
+        if (todosEnBlanco) {
+            System.out.println("No hay numeros de teléfonos registrados");
+        }
+
+        for (int i = 0; i < telefono.length; i++) {
+            if (telefono[i] != null) {
+                System.out.println((i + 1) + ". " + telefono[i]);
+            }
+        }
+    }
+
+    /**
+     * 1- Listar los números de teléfonos por pantalla. Para esto utilizar el método
+     * listarTelefonos()
+     * 2- Ingresar el número de la posición del teléfono que se desea modificar
+     * (Scanner)
+     * 3- Ingresar el nuevo número de teléfono (Scanner)
+     * 4- Modificar el número de teléfono, de la posición indicada.
+     * Si todos los teléfonos se encuentran en blanco se deberá emitir un mensaje
+     * que diga “No existen números de teléfonos en la lista para modificar”
+     */
+    public void modificarTelefono() {
+        Scanner sc = new Scanner(System.in);
+
+        boolean todosEnBlanco = true;
+        int indexElementoModificar = -1;
+
+        for (String numero : telefono) {
+            if (numero != null) {
+                todosEnBlanco = false;
+                break;
+            }
+        }
+
+        if (!todosEnBlanco) {
+            listarTelefonos();
+
+            System.out.println("Ingrese el número de la posición a modificar (-1 para cancelar): ");
+            int numeroLista = sc.nextInt();
+
+            if (numeroLista >= 1 && numeroLista <= telefono.length) {
+                indexElementoModificar = numeroLista - 1; // Ajusta el número de lista al índice
+            } else if (numeroLista == -1) {
+                return; // Cancela la operación si se ingresa -1
+            } else {
+                System.err.println("Número de lista fuera de rango.");
+                return; // Sale del método si el número está fuera de rango
+            }
+
+            // Resto del código para modificar el número
+            String nuevaCaracteristica;
+            String nuevoNumero;
+            do {
+                sc.nextLine(); // Limpia el búfer
+                System.out.println("Ingrese la nueva característica telefónica: ");
+                nuevaCaracteristica = sc.nextLine();
+                if (!validarCaracteristica(nuevaCaracteristica)) {
+                    System.err.println("La Caraterística Telefónica no cumple con los requisitos, intente denuevo.");
+                }
+            } while (!validarCaracteristica(nuevaCaracteristica));
+
+            do {
+                System.out.println("Ingrese el nuevo número de teléfono: ");
+                nuevoNumero = sc.nextLine();
+                if (!validarNumero(nuevoNumero)) {
+                    System.err.println("Número no válido.");
+                }
+            } while (!validarNumero(nuevoNumero));
+
+            telefono[indexElementoModificar] = nuevaCaracteristica + "-" + nuevoNumero;
+        } else {
+            System.out.println("No existen números de teléfonos en la lista para modificar.");
+        }
+    }
+
+    public void setDireccion(String d) {
+    }
+
+    public void setLocalidad(String l) {
+    }
+
+    public void setNombre(String n) {
+    }
+
+    public void validarPosicion(int p) {
+    }
+
+}

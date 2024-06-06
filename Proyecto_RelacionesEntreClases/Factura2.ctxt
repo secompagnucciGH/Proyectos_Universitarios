@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Factura2
+comment1.params=numeroFactura
+comment1.target=Factura2(int)
+comment2.params=deta
+comment2.target=void\ agregarDetalles(Detalle)
+comment3.params=
+comment3.target=void\ listarFactura()
+numComments=4

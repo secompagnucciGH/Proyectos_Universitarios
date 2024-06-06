@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Articulos
+comment0.text=\r\n\ Clase\:\ Articulo\r\n\u2022\ EL\ constructor\ debe\ recibir\ por\ par\u00E1metro,\ los\ valores\ de\r\ntodos\ sus\ atributos.\r\n\u2022\ Realizar\ los\ m\u00E9todos\ get\ y\ set\ para\ cada\ campo\ (nombre\ y\r\nprecio_unit\ e\ iva).\r\n\ El\ campo\ iva\ podr\u00E1\ tomar\ valor\ 10.5\ \u00F3\ 21.\r\nSi\ el\ dato\ remitido\ no\ es\ ninguno\ de\ los\ dos,\ deber\u00E1\ crear\ el\r\nobjeto\ con\ el\ valor\ 21.\ \r\n
+comment1.params=nombre\ precio_unit\ iva
+comment1.target=Articulos(java.lang.String,\ double,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=double\ getPrecioUnit()
+comment4.params=
+comment4.target=double\ getIva()
+numComments=5

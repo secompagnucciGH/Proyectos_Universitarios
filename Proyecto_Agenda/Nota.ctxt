@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Nota
+comment1.params=titulo\ texto\ mes\ dia\ contacto
+comment1.target=Nota(java.lang.String,\ java.lang.String,\ int,\ int,\ Contactos)
+comment10.params=titulo
+comment10.target=void\ setTitulo(java.lang.String)
+comment2.params=
+comment2.target=Contactos\ getContacto()
+comment3.params=
+comment3.target=int\ getDia()
+comment4.params=
+comment4.target=int\ getMes()
+comment5.params=
+comment5.target=java.lang.String\ getTexto()
+comment6.params=
+comment6.target=java.lang.String\ getTitulo()
+comment7.params=dia
+comment7.target=void\ setDia(int)
+comment8.params=mes
+comment8.target=void\ setMes(int)
+comment9.params=texto
+comment9.target=void\ setTexto(java.lang.String)
+numComments=11

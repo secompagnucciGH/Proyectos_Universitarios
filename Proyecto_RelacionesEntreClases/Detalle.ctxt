@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Detalle
+comment1.params=
+comment1.target=Detalle()
+comment2.params=articulo
+comment2.target=void\ setArticulo(Articulo)
+comment3.params=cantidad
+comment3.target=void\ setCantidad(int)
+comment4.params=
+comment4.target=Articulo\ getArticulo()
+comment5.params=
+comment5.target=int\ getCantidad()
+numComments=6

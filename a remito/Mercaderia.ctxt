@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Mercaderia
+comment0.text=\r\n\ Mercaderia\ Class\r\n\r\n\ Almacena\ el\ nombre\ y\ precio\ unitario\ de\ cada\r\n\ art\u00EDculo\ (Ej\:\ Nombre\:\ \u201CYerba\ La\ Verde\u201D,\ Precio\:\ 310)\r\n
+comment1.params=nombreProducto\ precioProducto
+comment1.target=Mercaderia(java.lang.String,\ double)
+comment1.text=\r\n\ Constructor\r\n\r\n\ Crea\ una\ instancia\ recibiendo\ los\ datos\ por\r\n\ par\u00E1metros.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=double\ getPrecio_unit()
+comment4.params=nombre
+comment4.target=void\ setNombre(java.lang.String)
+comment5.params=precio_unit
+comment5.target=void\ setPrecio_unit(double)
+numComments=6

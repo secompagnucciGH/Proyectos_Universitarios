@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Detalles
+comment0.text=lase\:\ Detalle\r\n\u2022\ EL\ constructor\ debe\ recibir\ por\ par\u00E1metro,\ valores\ de\ todos\r\nsus\ atributos.\r\n\u2022\ Realizar\ los\ m\u00E9todos\ get\ y\ set\ para\ cada\ campo\ (art\u00EDculo\ y\r\ncantidad).\r\n
+comment1.params=articulo\ cantidad
+comment1.target=Detalles(Articulos,\ int)
+comment2.params=
+comment2.target=Articulos\ getArticulo()
+numComments=3
