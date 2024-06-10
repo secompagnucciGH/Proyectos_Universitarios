@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Perro
+comment0.text=\r\n\ Clase\ destinada\ a\ modelar\ un\ perro,\ almacena\ su\ nombre\r\n\ y\ su\ edad.\r\n\ \r\n\ @author\ (Sebastian\ Compagnucci)\ \r\n\ @version\ (1.0.0)\r\n
+comment1.params=
+comment1.target=Perro()
+comment1.text=\r\n\ Constructor\ sin\ par\u00E1metros\ de\ la\ clase\ Perro\r\n
+comment2.params=nombre
+comment2.target=void\ setNombre(java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ que\ permite\ asignar\ el\ nombre\ al\ perro\r\n\ \r\n\ @param\ Nombre\ El\ nombre\ a\ asignar\ al\ perro\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment3.text=\r\n\ M\u00E9todo\ que\ permite\ obtener\ el\ nombre\ del\ perro\r\n\ \r\n\ @return\ String\ El\ nombre\ del\ perro\r\n
+comment4.params=edad
+comment4.target=void\ setEdad(int)
+comment4.text=\r\n\ M\u00E9todo\ que\ permite\ asignar\ la\ edad\ al\ perro\r\n\ \r\n\ @param\ Edad\ La\ edad\ a\ asignar\ al\ perro\r\n
+comment5.params=
+comment5.target=int\ getEdad()
+comment5.text=\r\n\ M\u00E9todo\ que\ permite\ obtener\ la\ edad\ del\ perro\r\n\ \r\n\ @return\ int\ La\ edad\ del\ perro\r\n
+comment6.params=
+comment6.target=void\ impirmirDatos()
+comment6.text=\r\n\ M\u00E9todo\ que\ permite\ imprimir\ todos\ los\r\n\ datos\ del\ perro\r\n
+numComments=7

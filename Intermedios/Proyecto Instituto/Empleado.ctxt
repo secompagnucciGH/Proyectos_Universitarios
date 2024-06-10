@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Empleado
+comment0.text=\r\n\ La\ clase\ Empleado\ deriva\ de\ Persona\ y\ permitir\u00E1\r\n\ agrupar\ a\ todas\ las\ personas\ que\ cobran\ sueldo\ \r\n\ (administrativos,\ docentes,\ etc.).\r\n\ \r\n\ @author\ Sebastian\ Compagnucci\r\n\ @version\ (V1)\r\n
+comment1.params=
+comment1.target=Empleado()
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Empleado\r\n
+comment2.params=dni
+comment2.target=Empleado(int)
+comment2.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Empleado\r\n\r\n\ @param\ \ int\ dni\ El\ dni\ de\ la\ persona\r\n
+comment3.params=dni\ sueldoMensual
+comment3.target=Empleado(int,\ double)
+comment3.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Empleado\r\n\r\n\ @param\ \ int\ \ dni\ \ El\ dni\ de\ la\ persona\r\n\ \ \ \ \ \ \ \ \ double\ sueldoMensual\ \ \ El\ sueldo\ mensual\ del\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ empleado\r\n
+comment4.params=sueldoMensual
+comment4.target=void\ setSueldoMensual(double)
+comment4.text=\r\n\ M\u00E9todo\ setSueldoMensual\r\n\ \r\n\ @param\ \ double\ sueldoMensual\ El\ sueldo\ mensual\ del\ docente\r\n
+comment5.params=
+comment5.target=double\ getSueldoMensual()
+comment5.text=\r\n\ M\u00E9todo\ getSueldoMensual\r\n\ \r\n\ @return\ \ double\ \ El\ sueldo\ mensual\ del\ docente\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ M\u00E9todo\ toString\ redefine\ al\ de\ la\ clase\ superior\r\n\ \r\n\ @return\ \ String\ \ La\ cadena\ con\ toda\ la\ informacion\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ asociada\ a\ las\ variables\ de\ instancia\r\n
+comment7.params=
+comment7.target=java.lang.String\ queSoy()
+comment7.text=\r\n\ M\u00E9todo\ queSoy\r\n\ \r\n\ @return\ \ String\ \ El\ nombre\ de\ la\ clase\r\n
+numComments=8

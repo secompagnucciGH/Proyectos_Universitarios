@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PruebaMiInstituto
+comment0.text=\r\n\ Esta\ clase\ se\ utiliza\ para\ probar\ algunos\ casos\ de\ la\r\n\ clase\ MiInstituto.\r\n\ \r\n\ @author\ Sebastian\ Compagnucci\r\n\ @version\ (V1)\r\n
+comment1.params=
+comment1.target=PruebaMiInstituto()
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ PruebaMiInstituto\r\n
+numComments=2

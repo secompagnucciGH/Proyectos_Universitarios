@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=PruebaHashMapArticulo
+comment0.text=\r\n\ Esta\ clase\ permite\ probar\ la\ clase\ HashMapArticulo.\r\n\ \r\n\ @author\ (Mario\ Finos)\ \r\n\ @version\ (V1)\r\n
+comment1.params=
+comment1.target=PruebaHashMapArticulo()
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ PruebaHashMapArticulo\r\n
+numComments=2

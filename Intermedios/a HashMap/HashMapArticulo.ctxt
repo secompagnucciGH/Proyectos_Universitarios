@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=HashMapArticulo
+comment0.text=\r\n\ Esta\ clase\ utiliza\ un\ HashMap\ para\ almacenar\ el\ c\u00F3digo\ y\r\n\ la\ descripci\u00F3n\ de\ una\ lista\ de\ art\u00EDculos.\r\n\ \r\n\ @author\ (Mario\ Finos)\ \r\n\ @version\ (V1)\r\n
+comment1.params=
+comment1.target=HashMapArticulo()
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ HashMapArticulo\r\n
+comment2.params=numero\ descripcion
+comment2.target=void\ agregarArticulo(int,\ java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ agregarArticulo\r\n\ Permite\ ingresar\ un\ art\u00EDculo\ a\ la\ lista.\r\n\ @param\ numero\ El\ n\u00FAmero\ de\ art\u00EDculo\ que\ representa\ el\ c\u00F3digo\r\n\ @param\ descripcion\ La\ descripci\u00F3n\ del\ art\u00EDculo\r\n
+comment3.params=numero
+comment3.target=java.lang.String\ buscarArticulo(int)
+comment3.text=\r\n\ M\u00E9todo\ buscarArticulo\r\n\ Permite\ obtener\ la\ descripci\u00F3n\ de\ un\ art\u00EDculo\ almacenado\r\n\ en\ la\ lista\ por\ medio\ del\ n\u00FAmero\ (c\u00F3digo).\r\n\ @param\ numero\ El\ n\u00FAmero\ de\ art\u00EDculo\ a\ buscar\r\n\ @return\ Una\ cadena\ que\ representa\ la\ descripci\u00F3n\ del\ art\u00EDculo.\r\n
+comment4.params=
+comment4.target=int\ obtenerTamanio()
+comment4.text=\r\n\ M\u00E9todo\ obtenerTamanio\r\n\ Permite\ obtener\ la\ cantidad\ de\ art\u00EDculos\ almacenados\r\n\ en\ la\ lista.\r\n\ @return\ Un\ entero\ que\ representa\ la\ cantidad\ del\ art\u00EDculos.\r\n
+comment5.params=
+comment5.target=java.util.HashMap\ getArticulos()
+comment5.text=\r\n\ M\u00E9todo\ getArticulos\r\n\ Permite\ retornar\ la\ lista\ completa\ de\ art\u00EDculos\ almacenados.\r\n\ @return\ Un\ HashMap\ con\ la\ lista\ de\ art\u00EDculos.\r\n
+numComments=6

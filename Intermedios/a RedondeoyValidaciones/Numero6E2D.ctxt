@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Numero6E2D
+comment0.text=\r\n\ Esta\ clase\ permite\ definir\ un\ numero\ de\ 6\ enteros\ y\ 2\ decimales\r\n\ con\ signo.\r\n\ Valida\ que\ el\ valor\ a\ almacenar\ este\ entre\ los\ l\u00EDmites\ permitidos\r\n\ para\ la\ variable\ en\ su\ parte\ entera.\ En\ su\ parte\ decimal\ realiza\r\n\ redondeo\ a\ la\ cent\u00E9sima.\r\n\ \r\n\ @author\ Sebastian\ Compagnucci\r\n\ @version\ (V1)\r\n
+comment1.params=
+comment1.target=Numero6E2D()
+comment1.text=\r\n\ Constructor\ de\ objetos\ (instancias)\ de\ la\ clase\r\n\ \ \ \ \ \ \ Numero6E2D\r\n
+comment2.params=numero
+comment2.target=boolean\ setNumero(double)
+comment2.text=\r\n\ M\u00E9todo\ para\ asignar\ un\ valor\ a\ la\ variable\ de\ instancia\r\n\ \r\n\ @param\ \ numero\ \ \ \ \ \ El\ valor\ que\ se\ desea\ guardar\r\n\ \r\n\ @return\ \ boolean\ -\ \ El\ resultado\ de\ la\ asignaci\u00F3n,\ retorna\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ true\ si\ pudo\ guardar\ el\ valor,\ caso\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ contrario\ retorna\ false\r\n
+comment3.params=
+comment3.target=double\ getNumero()
+comment3.text=\r\n\ M\u00E9todo\ para\ recuperar\ el\ valor\ almacenado\ en\ la\ variable\ de\ instancia\r\n\ \r\n\ @return\ \ double\ \ -\ \ El\ valor\ almacenado\ en\ la\ variable\ de\ instancia\ \r\n
+comment4.params=numero
+comment4.target=boolean\ validarNumero(double)
+comment4.text=\r\n\ M\u00E9todo\ privado\ para\ validar\ que\ el\ n\u00FAmero\ a\ almacenar\ no\ supere\r\n\ los\ topes\ establecidos\r\n\ \r\n\ @param\ \ numero\ \ \ -\ \ El\ valor\ que\ se\ desea\ guardar\r\n\ \r\n\ @return\ \ boolean\ -\ \ El\ resultado\ de\ la\ validaci\u00F3n,\ retorna\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ true\ si\ es\ v\u00E1lido,\ caso\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ contrario\ retorna\ false\r\n
+comment5.params=numero
+comment5.target=double\ redondear2Dec(double)
+comment5.text=\r\n\ M\u00E9todo\ privado\ para\ redondear\ el\ n\u00FAmero\ a\ almacenar\ a\ 2\ decimales\ \ \ \ \r\n\ \r\n\ @param\ \ numero\ \ -\ \ \ El\ valor\ que\ se\ desea\ redondear\r\n\ \r\n\ @return\ \ double\ -\ \ \ El\ n\u00FAmero\ redondeado\ a\ 2\ decimales\ \ \ \r\n
+numComments=6

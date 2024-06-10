@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Docente
+comment0.text=\r\n\ Esta\ clase\ permitir\u00E1\ modelar\ un\ docente,utiliza\r\n\ como\ superclase\ a\ la\ clase\ Empleado.\r\n\ \r\n\ @author\ (Mario\ Finos)\ \r\n\ @version\ (V2)\r\n
+comment1.params=
+comment1.target=Docente()
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Docente\r\n
+comment2.params=dni
+comment2.target=Docente(int)
+comment2.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Docente\r\n\r\n\ @param\ \ int\ dni\ El\ dni\ de\ la\ persona\r\n
+comment3.params=materia
+comment3.target=void\ setMateria(java.lang.String)
+comment3.text=\r\n\ M\u00E9todo\ setMateria\r\n\ \r\n\ @param\ \ String\ materia\ La\ materia\ que\ dicta\ el\ docente\r\n
+comment4.params=
+comment4.target=java.lang.String\ getMateria()
+comment4.text=\r\n\ M\u00E9todo\ getMateria\r\n\ \r\n\ @return\ \ String\ \ La\ materia\ que\ dicta\ el\ docente\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ M\u00E9todo\ toString\ redefine\ al\ de\ la\ clase\ superior\r\n\ \r\n\ @return\ \ String\ \ La\ cadena\ con\ toda\ la\ informacion\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ asociada\ a\ las\ variables\ de\ instancia\r\n
+comment6.params=
+comment6.target=java.lang.String\ queSoy()
+comment6.text=\r\n\ M\u00E9todo\ queSoy\r\n\ \r\n\ @return\ \ String\ \ El\ nombre\ de\ la\ clase\r\n
+numComments=7

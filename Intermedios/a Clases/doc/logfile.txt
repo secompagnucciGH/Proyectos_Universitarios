@@ -1,0 +1,50 @@
+Project documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-sourcepath
+C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5
+-source
+17
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\junit-jupiter-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-api-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-engine-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-migrationsupport-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-jupiter-params-5.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-commons-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-console-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-console-standalone-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-engine-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-launcher-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-reporting-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-runner-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-suite-api-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-platform-testkit-1.5.2.jar;C:\Program Files\BlueJ\lib\junit-quickcheck-core-0.9.jar;C:\Program Files\BlueJ\lib\junit-vintage-engine-5.5.2.jar;C:\Program Files\BlueJ\lib\hamcrest-core-1.3.jar;C:\Program Files\BlueJ\lib\hamcrest-library-1.3.jar;C:\Program Files\BlueJ\lib\lang-stride.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.base.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.controls.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.fxml.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.graphics.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.media.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.properties.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.swing.jar;C:\Program Files\BlueJ\lib\javafx\lib\javafx.web.jar;C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5
+-d
+C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-doctitle
+Proyecto2_5
+-windowtitle
+Proyecto2_5
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-link
+https://docs.oracle.com/en/java/javase/11/docs/api/
+C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5/Perro.java
+<---- end of javadoc command ---->
+Loading source file C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\Perro.java...
+Constructing Javadoc information...
+Building index for all the packages and classes...
+Standard Doclet version 17.0.4+8
+Building tree for all the packages and classes...
+Generating C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc\Perro.html...
+C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\Perro.java:29: warning: @param argument "Nombre" is not a parameter name.
+     * @param Nombre El nombre a asignar al perro
+       ^
+C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\Perro.java:51: warning: @param argument "Edad" is not a parameter name.
+     * @param Edad La edad a asignar al perro
+       ^
+Generating C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc\package-summary.html...
+Generating C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc\package-tree.html...
+Generating C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc\overview-tree.html...
+Building index for all classes...
+Generating C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc\allclasses-index.html...
+Generating C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc\allpackages-index.html...
+Generating C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc\index-all.html...
+Generating C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc\index.html...
+Generating C:\Datos\Pro1\Ejercicios\Unidad2\Practica\Proyecto2_5\doc\help-doc.html...
+2 warnings
