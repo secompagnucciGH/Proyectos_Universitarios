@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Materias
+comment0.text=\r\n\ Esta\ clase\ permitir\u00E1\ modelar\ las\ diferentes\ "materias"\r\n\ de\ la\ carrera\ de\ la\ Instituci\u00F3n.\ \r\n\ \r\n\ @author\ (Mario\ Finos)\ \r\n\ @version\ (Version\ 1.0)\r\n
+comment1.params=
+comment1.target=Materias()
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Materias\r\n
+comment2.params=materia
+comment2.target=boolean\ esMateriaValida(java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ esMateriaValida\r\n\ \r\n\ @param\ \ String\ materia\ \ La\ materia\ que\ se\ desea\ validar\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ su\ existencia\ en\ la\ lista\ \r\n\ @return\ \ boolean\ \ \ Retorna\ true\ si\ la\ materia\ existe\ en\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ la\ lista,\ caso\ contrario\ retorna\ false\ \ \ \ \ \r\n
+comment3.params=materia
+comment3.target=java.lang.Integer\ getHoras(java.lang.String)
+comment3.text=\r\n\ M\u00E9todo\ getHoras\r\n\ \r\n\ @param\ \ String\ materia\ \ La\ materia\ que\ se\ desea\ obtener\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ su\ cantidad\ de\ horas\ semanales\r\n\ @return\ \ Integer\ \ \ La\ cantidad\ de\ horas\ semanales\ correspondientes,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ la\ materia\ no\ es\ v\u00E1lida\ retorna\ null\r\n
+numComments=4

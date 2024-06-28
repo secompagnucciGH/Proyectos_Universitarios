@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Cargos
+comment0.text=\r\n\ Esta\ clase\ permitir\u00E1\ modelar\ las\ diferentes\ "cargos"\r\n\ de\ los\ directivos\ de\ la\ Instituci\u00F3n.\ \r\n\ \r\n\ @author\ (Mario\ Finos)\ \r\n\ @version\ (Version\ 1.0)\r\n
+comment1.params=
+comment1.target=Cargos()
+comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ Cargos\r\n
+comment2.params=cargo
+comment2.target=boolean\ esCargoValido(java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ esCargoValido\r\n\ \r\n\ @param\ \ String\ cargo\ \ El\ cargo\ que\ se\ desea\ validar\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ su\ existencia\ en\ la\ lista\ \r\n\ @return\ \ boolean\ \ \ Retorna\ true\ si\ el\ cargo\ existe\ en\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ la\ lista,\ caso\ contrario\ retorna\ false\r\n
+comment3.params=cargo
+comment3.target=java.lang.Double\ getSueldo(java.lang.String)
+comment3.text=\r\n\ M\u00E9todo\ getSueldo\r\n\ \r\n\ @param\ \ String\ cargo\ \ El\ cargo\ que\ se\ desea\ obtener\ el\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sueldo\ mensual\ \r\n\ @return\ \ Double\ \ \ El\ sueldo\ que\ le\ corresponde\ al\ cargo,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ si\ el\ cargo\ no\ es\ v\u00E1lido\ retorna\ null\r\n
+numComments=4
