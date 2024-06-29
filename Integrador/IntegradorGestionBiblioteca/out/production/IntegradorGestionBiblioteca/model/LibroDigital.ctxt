@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LibroDigital
+comment0.text=\r\n\ 1.5\ Clase\ LibroDigital\ que\ hereda\ de\ Libro\r\n\ \u25CF\ Atributos\:\r\n\ \u25CB\ tamanoArchivo\ (double)\r\n\ \u25CF\ M\u00E9todos\:\r\n\ \u25CB\ Constructor\ para\ inicializar\ titulo,\ autor,\ isbn\ y\ tamanoArchivo.\r\n\ \u25CB\ Getter\ para\ tamanoArchivo.\r\n\ \u25CB\ Implementaci\u00F3n\ del\ m\u00E9todo\ mostrarInfo\ que\ imprime\ la\ informaci\u00F3n\ del\ libro\r\n\ digital.\r\n\r\n
+comment1.params=titulo\ autor\ isbn\ tamanoarchivo
+comment1.target=LibroDigital(java.lang.String,\ java.lang.String,\ java.lang.String,\ double)
+comment2.params=
+comment2.target=double\ getTamanoArchivo()
+comment3.params=
+comment3.target=void\ mostrarInfo()
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GestorUsuariosImpl
+comment1.params=
+comment1.target=GestorUsuariosImpl()
+comment2.params=usuario
+comment2.target=void\ agregarUsuario(model.Usuario)
+comment3.params=idUsuario
+comment3.target=model.Usuario\ buscarUsuario(int)
+comment4.params=idUsuario
+comment4.target=void\ eliminarUsuario(int)
+numComments=5

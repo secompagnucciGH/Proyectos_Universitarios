@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LibroFisico
+comment0.text=\r\n\ 1.4\ Clase\ LibroFisico\ que\ hereda\ de\ Libro\r\n\ \u25CF\ Atributos\:\r\n\ \u25CB\ numeroPaginas\ (int)\r\n\ \u25CF\ M\u00E9todos\:\r\n\ \u25CB\ Constructor\ para\ inicializar\ titulo,\ autor,\ isbn\ y\ numeroPaginas.\r\n\ \u25CB\ Getter\ para\ numeroPaginas.\r\n\ \u25CB\ Implementaci\u00F3n\ del\ m\u00E9todo\ mostrarInfo\ que\ imprime\ la\ informaci\u00F3n\ del\ libro\r\n\ f\u00EDsico.\r\n
+comment1.params=titulo\ autor\ isbn\ numeroPaginas
+comment1.target=LibroFisico(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getNumeroPaginas()
+comment3.params=
+comment3.target=void\ mostrarInfo()
+numComments=4

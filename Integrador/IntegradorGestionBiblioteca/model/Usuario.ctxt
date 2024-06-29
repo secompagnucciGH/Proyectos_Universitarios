@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Usuario
+comment0.text=\r\n1.2\ Clase\ Usuario\ que\ hereda\ de\ Persona\r\n\u25CF\ Atributos\:\r\n\u25CB\ idUsuario\ (int)\r\n\u25CB\ librosPrestados\ (ArrayList<Libro>)\r\n\u25CF\ M\u00E9todos\:\r\n\u25CB\ Constructor\ para\ inicializar\ nombre,\ email\ e\ idUsuario.\r\n\u25CB\ Getters\ para\ idUsuario\ y\ librosPrestados.\r\n\u25CB\ Implementaci\u00F3n\ del\ m\u00E9todo\ mostrarInfo\ que\ imprime\ la\ informaci\u00F3n\ del\r\nusuario.\r\n\u25CB\ M\u00E9todo\ prestarLibro(Libro\ libro)\ que\ a\u00F1ade\ un\ libro\ a\r\nlibrosPrestados.\r\n\u25CB\ M\u00E9todo\ devolverLibro(Libro\ libro)\ que\ elimina\ un\ libro\ de\r\nlibrosPrestados.\r\n
+comment1.params=nombre\ email\ idUsuario
+comment1.target=Usuario(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getIdUsuario()
+comment3.params=
+comment3.target=java.util.ArrayList\ getLibrosPrestados()
+comment4.params=
+comment4.target=void\ mostrarInfo()
+comment5.params=libro
+comment5.target=void\ prestarLibro(Libro)
+comment6.params=libro
+comment6.target=void\ devolverLibro(Libro)
+numComments=7

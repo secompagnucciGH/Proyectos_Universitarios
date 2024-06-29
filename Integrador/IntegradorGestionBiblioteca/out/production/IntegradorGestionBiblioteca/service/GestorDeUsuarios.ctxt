@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GestorDeUsuarios
+comment0.text=\r\n2.1\ Interfaz\ GestorDeUsuarios\r\n\u25CF\ M\u00E9todos\:\r\n\u25CB\ void\ agregarUsuario(Usuario\ usuario)\:\ A\u00F1ade\ un\ usuario\ al\ sistema.\r\n\u25CB\ Usuario\ buscarUsuario(int\ idUsuario)\:\ Busca\ un\ usuario\ por\ su\ ID.\r\n\u25CB\ void\ eliminarUsuario(int\ idUsuario)\:\ Elimina\ un\ usuario\ del\ sistema\r\npor\ su\ ID.\r\n
+comment1.params=idUsuario
+comment1.target=void\ eliminarUsuario(int)
+numComments=2

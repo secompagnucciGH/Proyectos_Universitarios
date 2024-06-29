@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Persona
+comment0.text=\r\n1.1\ Clase\ abstracta\ Persona\r\n\u25CF\ Atributos\:\r\n\u25CB\ nombre\ (String)\r\n\u25CB\ email\ (String)\r\n\u25CF\ M\u00E9todos\:\r\n\u25CB\ Constructor\ para\ inicializar\ nombre\ y\ email.\r\n\u25CB\ Getters\ para\ nombre\ y\ email.\r\n\u25CB\ M\u00E9todo\ abstracto\ mostrarInfo\ (sin\ implementaci\u00F3n).\r\n
+comment1.params=
+comment1.target=Persona()
+numComments=2
