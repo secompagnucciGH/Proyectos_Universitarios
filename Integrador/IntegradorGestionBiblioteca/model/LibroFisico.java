@@ -31,7 +31,7 @@ public class LibroFisico extends Libro
 
     @Override
     public String toString() {
-        return super.toString() + "LibroFisico{" +
+        return super.toString() + " FISICO {" +
                 "numeroPaginas=" + numeroPaginas +
                 '}';
     }

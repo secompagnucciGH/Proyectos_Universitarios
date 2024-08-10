@@ -8,6 +8,7 @@ class test {
         System.out.print("LIBRO FISICO 1 -----------------------------------------------------------------------------------");
         System.out.println("");
 
+        // 1.4 Clase LibroFisico que hereda de Libro por constructor se le pasan los parametros para la creacion.
 
         Libro lib1 = new LibroFisico("TituloPrueba", "AutorPrueba", "ISBN123PRUEBA",10000);
 
@@ -42,6 +43,9 @@ class test {
         usr1.prestarLibro(lib1);
 
         usr1.getLibrosPrestados();
+
+        // aca imprimimos la lista de libros prestados por pantalla.
+        usr1.getLibrosPrestadosSout();
 
         System.out.print("USER ACCIONS ##################################################################################");
         System.out.println("");

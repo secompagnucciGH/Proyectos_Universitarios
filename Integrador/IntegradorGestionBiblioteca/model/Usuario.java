@@ -36,6 +36,13 @@ public class Usuario extends Persona
         return librosPrestados;
     }
 
+    public void getLibrosPrestadosSout() {
+        System.out.println("LIBROS PRESTADOS:");
+        for (Libro libro : librosPrestados) {
+            System.out.println("libro 1" + libro.toString());
+        }
+    }
+
     @Override
     public void mostrarInfo() {
         System.out.println("Nombre: " + super.getNombre() + getNombre() + " Email: " + super.getEmail() + " ID-USUARIO: " + getIdUsuario());

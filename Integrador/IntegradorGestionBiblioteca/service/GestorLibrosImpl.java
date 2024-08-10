@@ -9,7 +9,6 @@ public class GestorLibrosImpl implements GestorDeLibros {
 
     private HashMap<String,Libro> libros;
 
-
     public GestorLibrosImpl() {
         // Inicializamos el HashMap en el constructor
         this.libros = new HashMap<>();

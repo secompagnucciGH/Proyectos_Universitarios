@@ -15,7 +15,7 @@ package model;
  ○ Método abstracto mostrarInfo (sin implementación).
 
  */
-public class Libro
+public abstract class Libro
 {
 
     private String titulo;
@@ -49,13 +49,11 @@ public class Libro
         this.disponible = disp;
     }
 
-    public void mostrarInfo() {
-
-    }
+    public abstract void mostrarInfo();
 
     @Override
     public String toString() {
-        return super.toString() + "Libro{" +
+        return  "LIBRO {" +
                 "titulo='" + titulo + '\'' +
                 ", autor='" + autor + '\'' +
                 ", isbn='" + isbn + '\'' +
